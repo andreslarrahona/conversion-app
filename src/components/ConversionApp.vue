@@ -43,15 +43,15 @@
         <form class="py-5 sm:py-8 my-4 px-4 sm:px-8">
           <div class="mb-6">
             <div class="flex gap-2 sm:gap-3">
-              <input 
+              <input id="numin"
                 type="number" 
                 class="flex-1 min-h-14 bg-gray-50 border border-gray-200 text-gray-800 text-lg sm:text-xl rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-4 sm:p-3"
                 placeholder="0.00"
                 v-model.number="inputValue">
-              <select 
+              <select id="unidadFrom"
                 class="min-h-14 w-28 sm:w-24 bg-gray-50 border border-gray-200 text-gray-800 text-base sm:text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block p-3 sm:p-2.5"
                 v-model="unidadFrom">
-                <option v-for="(_, unidad) in magnitudes[magnitud].unidades" :key="unidad">{{ unidad }}</option>
+                <option v-for="(_, unidad) in magnitudes[magnitud].unidades" :key="unidad" :value="unidad">{{ unidad }}</option>
               </select>
             </div>
           </div>
@@ -67,15 +67,15 @@
 
           <div class="mb-2">
             <div class="flex gap-2 sm:gap-3">
-              <input 
+              <input id="numout"
                 type="number" 
                 class="flex-1 min-h-14 bg-gray-50 border border-gray-200 text-gray-800 text-lg sm:text-xl rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-4 sm:p-3"
                 placeholder="0.00" 
                 v-model.number="outputValue">
-              <select 
+              <select id="unidadTo"
                 class="min-h-14 w-28 sm:w-24 bg-gray-50 border border-gray-200 text-gray-800 text-base sm:text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block p-3 sm:p-2.5"
                 v-model="unidadTo">
-                <option v-for="(_, unidad) in magnitudes[magnitud].unidades" :key="unidad">{{ unidad }}</option>
+                <option v-for="(_, unidad) in magnitudes[magnitud].unidades" :key="unidad" :value="unidad">{{ unidad }}</option>
               </select>
             </div>
           </div>
