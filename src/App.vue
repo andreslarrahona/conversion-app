@@ -1,5 +1,5 @@
 <template>
-  <ConversionApp />
+  <ConversionApp/>
 </template>
 
 <script setup>
