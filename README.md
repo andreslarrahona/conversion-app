@@ -32,6 +32,15 @@ A mobile-first web application developed in Vue.js for unit conversion (temperat
 - **Interaction tests**: Confirm dropdowns, unit swapping, and input handling work as expected.
 - **Conversion tests**: 15+ test cases validating accurate unit conversions across different measurement types.
 
+## Screenshots
+
+Main page
+![Main page](./public/screenshots/conversion-app-screenshot-1.png)
+
+Test suites results
+![Tests](./public/screenshots/conversion-app-screenshot-2.png)
+
+
 ### Why This Project?
 
 This project showcases:
