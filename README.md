@@ -35,10 +35,10 @@ A mobile-first web application developed in Vue.js for unit conversion (temperat
 ## Screenshots
 
 Main page
-![Main page](./public/screenshots/conversion-app-screenshot-1.png)
+![Main page](./public/screenshots/conversion-app-screenshot-1.jpg)
 
 Test suites results
-![Tests](./public/screenshots/conversion-app-screenshot-2.png)
+![Tests](./public/screenshots/conversion-app-screenshot-2.jpg)
 
 
 ### Why This Project?
