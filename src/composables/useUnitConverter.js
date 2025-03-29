@@ -6,7 +6,7 @@ const pressureFactors = {
   'kPa': 1000,
   'hPa': 100,
   'Pa': 1,
-  'Bar': 100000,
+  'bar': 100000,
   'mbar': 100,
   'kgf/cm2': 98066.5,
   'psi': 6894.76,

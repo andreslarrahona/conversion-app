@@ -4,7 +4,7 @@
       Conversión de unidades
     </h1>
     <div class="max-w-lg mx-auto">
-      <button
+      <button id="ddbtn"
         class="text-white
         w-52
         bg-gradient-to-br from-indigo-500 to-teal-500      hover:bg-blue-800
@@ -30,7 +30,7 @@
           <span class="block text-sm text-gray-400">Andrés Larrahona</span>
           <span class="block text-sm font-medium text-gray-400 truncate">andreslarrahona@gmail.com</span>
           </div>
-          <ul class="py-1" aria-labelledby="dropdown">
+          <ul class="py-1" aria-labelledby="dropdown" id="dropdown">
             <li v-for="(mag, key) in magnitudes" :key="key">
               <a @click="selectMagnitud(key)" class="text-sm hover:bg-gray-100 text-teal-700 block px-4 py-2">{{ key }}</a>
             </li>
@@ -57,7 +57,7 @@
           </div>
 
           <div class="flex justify-center my-4 sm:my-6">
-            <button 
+            <button id="swapUnits"
               type="button" 
               class="p-3 sm:p-2 rounded-full bg-gray-100 text-gray-500 hover:bg-primary-100 hover:text-primary-600 transition-colors"
               @click="swapUnits">
